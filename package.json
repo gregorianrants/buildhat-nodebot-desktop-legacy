@@ -1,0 +1,16 @@
+{
+  "name": "buildhat-legobot-ws-client-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "odometry": "python odometry/main.py",
+    "camera-client": "python zero_mq_client.py"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "zeromq": "^6.0.0-beta.17"
+  }
+}
